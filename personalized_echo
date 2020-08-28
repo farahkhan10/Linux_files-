@@ -1,0 +1,3 @@
+#!/bin/bash
+prefix=Super
+echo -e "Hello ${prefix}man and ${prefix}girl"

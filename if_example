@@ -1,0 +1,11 @@
+#!/bin/bash
+echo "Enter a character from the set {yYnN}"
+read char
+if [[ $char == y || $char == Y ]]
+then
+	sleep 1
+	echo "YES"
+else
+	sleep 1
+	echo "NO"
+fi

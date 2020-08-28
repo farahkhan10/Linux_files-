@@ -1,0 +1,13 @@
+#!/bin/bash
+echo -e "What animal do you see ?"
+read animal
+case $animal in
+	"lion" | "tiger" )
+		echo "RUNNN!!!";;
+	"dog" | "cat" ) 
+		echo "Feed it :)";; 
+	"mouse" )
+		echo "Let cat takecare of it...";;
+	*)
+		echo "Sorry, we dont have information about it";;
+esac

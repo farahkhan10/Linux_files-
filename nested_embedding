@@ -1,0 +1,7 @@
+#!/bin/bash
+A=Shell
+echo $C$B$A 
+B=sub
+echo $C$B$A
+C=sub
+echo $C$B$A
